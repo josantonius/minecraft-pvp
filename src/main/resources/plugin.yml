@@ -1,0 +1,51 @@
+name: PvP
+version: 1.0.0
+main: dev.josantonius.minecraft.pvp.Main
+api-version: 1.19
+author: Josantonius
+description: Experience thrilling player-versus-player battles in Minecraft servers.
+
+commands:
+  pvp:
+    description: Challenge a player to a PvP match
+    usage: /pvp [player]
+    permission: pvp.use
+    permission-message: "&cYou don't have permission to use this command."
+  pvpaccept:
+    description: Accept the PvP challenge
+    usage: /pvpaccept
+    permission: pvp.use
+    permission-message: "&cYou don't have permission to use this command."
+  pvpdeny:
+    description: Deny the PvP challenge
+    usage: /pvpdeny
+    permission: pvp.use
+    permission-message: "&cYou don't have permission to use this command."
+  pvpcancel:
+    description: Cancel the PvP challenge
+    usage: /pvpcancel
+    permission: pvp.use
+    permission-message: "&cYou don't have permission to use this command."
+  pvphelp:
+    description: Show help for PvP commands
+    usage: /pvphelp
+    permission: pvp.use
+    permission-message: "&cYou don't have permission to use this command."
+  pvptop:
+    description: Show PvP win and loss statistics
+    usage: /pvptop
+    permission: pvp.use
+    permission-message: "&cYou don't have permission to use this command."
+  pvpreload:
+    description: Reload the plugin
+    usage: /pvpreload
+    permission: pvp.admin
+    permission-message: "&cYou don't have permission to use this command."
+
+permissions:
+  pvp.use:
+    default: op
+    description: Allows the use of PvP plugin commands
+  pvp.admin:
+    default: op
+    description: Allows the use of PvP plugin reload command

@@ -1,0 +1,42 @@
+# This is the main configuration file for the plugin.
+# You can find more information about this file here:
+# https://github.com/josantonius/minecraft-pvp
+
+# Name of the world where the PvP zone is located.
+world: null
+
+# Names of the worlds where the use of PvP commands will be blocked.
+disabledWorlds: null
+
+# Commands that players will not be allowed to use during a PvP.
+blockedCommands: null
+
+# Time in seconds that it will take for a challenge to be canceled if not accepted.
+inviteTimeout: null
+
+# If enabled, players will start PVP with the maximum level of hunger and health.
+setHealthAndSaturation: null
+
+# The radius of the PvP zone.
+pvpZoneRadius: null
+
+# Vertical radius of the PvP zone for player height restrictions.
+pvpZoneVerticalRadius: null
+
+# Central point of the PvP zone.
+pvpZoneCenter: null
+
+# The location where the player who proposes the challenge will be teleported to start the PvP.
+pvpZonePlayerOne: null
+
+# Location where the player who accepts the challenge will be teleported to start the PvP.
+pvpZonePlayerTwo: null
+
+# Location where players not involved in the PvP will be teleported.
+pvpZoneSpectatorLocation: null
+
+# Material that will be used to cover the doors of the PvP zone.
+doorMaterial: null
+
+# Locations of the blocks that will be blocked during the PvP.
+doorLocations: null

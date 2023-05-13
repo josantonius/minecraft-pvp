@@ -1,0 +1,66 @@
+# This file contains all the messages required for the plugin.
+# DO NOT delete any messages here completely or it may break the plugin.
+# You're free to change them as you please, however.
+# You can find more information about this file here:
+# https://github.com/josantonius/minecraft-pvp
+
+announcement:
+  accepted: "{1}<green> has accepted the PvP against <white>{2}"
+  canceled: "<red>The PvP between <white>{1}<red> and <white>{2} has been canceled"
+  challenge: "{1}<gold> has challenged <white>{2}<gold> to a PvP in the coliseum"
+  death_canceled: "{1}<red> has died and the PvP against <white>{2} is canceled"
+  denied: "{1}<red> has rejected the PvP against <white>{2}"
+  disconnect_canceled: "{1}<red> leaves and the PvP against <white>{2} is canceled"
+  disconnect_wins: "{1}<green> leaves and <white>{2}<green> wins the PvP"
+  player_canceled: "{1}<red> has canceled the PvP against <white>{2}"
+  started: "<gold>The PvP between <white>{1}<gold> and <white>{2}<gold> has started"
+  winner: "{1}<green> has won the PvP against <white>{2}"
+
+clickable:
+  component:
+    accept_deny: "<aqua>Click to <green><hover:show_text:'<aqua>Click to run {1}'><click:run_command:{1}>[Accept]</click></hover><aqua> or <red><hover:show_text:'<aqua>Click to run {2}'><click:run_command:{2}>[Reject]</click></hover><aqua> the challenge"
+    cancel: "<aqua>Click on <red><hover:show_text:'<aqua>Click to run {1}'><click:run_command:{1}>[Cancel]</click></hover><aqua> if you want to withdraw"
+  hover:
+    command: "Click to execute"
+    link: "Click to open"
+
+error:
+  challenge:
+    already_accepted: "<red>You have already accepted the challenge"
+    already_active: "<red>Right now, <white>{1}<red> and <white>{2}<red> are fighting"
+    already_pending: "<red>There is already a pending PvP between <white>{1}<red> and <white>{2}<red>"
+    cannot_cancel: "<red>Only <white>{1}<red> can cancel this PvP"
+    invite_timeout: "{1}<red> has not accepted the PvP against <white>{2}"
+    started_cancel: "<red>The PvP has already started, you cannot cancel it"
+    started_reject: "<red>The PvP has already started, you cannot reject it"
+    to_accept: "<red>There is no challenge to accept"
+    to_cancel: "<red>There is no challenge to cancel"
+    to_deny: "<red>There is no challenge to reject"
+    yourself: "<red>You cannot challenge yourself"
+
+  command:
+    for_players: "<red>This command can only be used by players"
+    invalid: "<red>Invalid command"
+    not_allowed: "<red>You cannot use this command during a PvP"
+    not_executable: "<red>You cannot do that from the spawn or the jail"
+    permission: "<red>You do not have permission to use this command"
+    usage: "<red>Incorrect usage. Use: <gold>{1}"
+
+  player:
+    offline: "<red>This player is not connected"
+
+help:
+  header: "COMMANDS"
+  pvp: "<gold>{1}<gray> - <aqua>Challenge a player to a PvP"
+  pvpaccept: "<gold>{1}<gray> - <aqua>Accept the PvP challenge"
+  pvpcancel: "<gold>{1}<gray> - <aqua>Cancel the PvP challenge"
+  pvpdeny: "<gold>{1}<gray> - <aqua>Reject the PvP challenge"
+  pvpreload: "<gold>{1}<gray> - <aqua>Reload the plugin"
+  pvptop: "<gold>{1}<gray> - <aqua>Statistics on wins and losses"
+
+plugin:
+  reloaded: "<green>Plugin reloaded successfully!"
+
+stat:
+  header: "TOP 15"
+  player: "<gold>{1} <dark_aqua>{2}<gray> <red>{3}"
