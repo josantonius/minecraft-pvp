@@ -1,6 +1,5 @@
 # Minecraft PvP Plugin
 
-[![Release](https://jitpack.io/v/dev.josantonius/minecraft-pvp.svg)](https://jitpack.io/#dev.josantonius/minecraft-pvp)
 [![License](https://img.shields.io/github/license/josantonius/minecraft-pvp)](LICENSE)
 
 Experience thrilling player-versus-player battles in Minecraft servers with this dynamic plugin.
